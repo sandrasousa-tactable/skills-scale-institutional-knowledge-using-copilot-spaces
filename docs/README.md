@@ -1,0 +1,9 @@
+# OctoAcme — Project Management Overview
+
+This repository centralizes OctoAcme's project management processes to help teams start quickly and stay aligned. Work follows a clear lifecycle: initiation (one‑pagers, stakeholder alignment, go/no‑go), planning (kickoff, prioritized backlog, estimates, Definition of Done), execution (iterative delivery tracked on a project board), release (pre‑release checks, staging smoke tests, and rollback plans), and close with retrospectives to capture improvements.
+
+Key workflows emphasize small, reviewable increments and predictable handoffs. Backlog items include acceptance criteria and estimates; sprint planning pulls items that meet the Definition of Done. Pull requests should be small when possible, include an issue link and acceptance criteria, run CI and linting, and require peer approval before merging. Releases are gated by checklists (release notes, rollback plan) and post‑deploy verifications.
+
+Roles and responsibilities are explicit: Product Managers define outcomes and success metrics; Project Managers coordinate schedules, risks, and communications; Developers implement and test features; QA validates acceptance criteria; and stakeholders provide inputs and approvals. The personas document clarifies ownership for artifacts like the risk register, release readiness, and retrospective actions.
+
+Communication and quality assurance are built into the cadence and tooling: daily standups, weekly delivery syncs, regular demos, and weekly PM+PdM alignment. Risk management uses a lightweight register with a defined escalation path (team → PM → Product Lead → Sponsor) and templates for status and incident communications. QA requirements include unit and integration tests, critical-path end-to-end smoke tests, CI security scans, and manual QA when needed; retrospective action items are tracked back into the backlog for continuous improvement.
